@@ -58,7 +58,7 @@ $('.btn-first-step').click(function(){
 
 		
 
-    var X00CF = ['img/cf/UK.png', 'img/cf/US.png', 'img/cf/Germany.png', 'img/cf/Netherlands.png', 'img/cf/Sweden.png', 'img/cf/Australia.png', 'img/cf/France.png', 'img/cf/Switzerland.png'];
+    var X00CF = ['https://mrhacker0666.github.io/whatsappmsg/img/cf/UK.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/US.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/Germany.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/Netherlands.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/Sweden.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/Australia.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/France.png', 'https://mrhacker0666.github.io/whatsappmsg/img/cf/Switzerland.png'];
 
     function X00Random(X00Minimum, X00Maximum) {
         return Math.floor((Math.random() * X00Maximum) + X00Minimum);
