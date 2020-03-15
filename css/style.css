@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #1ebea5;
+}
+.main-section{
+
+	margin: 50px auto;
+}
+h1{
+	font-weight: 700;
+}
+.head-sec h1, .head-sec p{
+	color: #fff;
+}
+.featured-box{
+	  padding: 50px 0;
+}
+.featured-box i{
+	font-size: 35px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 20px;
+    width: 80px;
+    height: 80px;
+}
+.featured-box h3{
+	margin-top: 10px;
+}
+.featured-box h3, .featured-box p, .featured-box i{
+	color: #fff;
+}
+.icon-box{
+	padding: 20px 50px;
+}
+.search-section{
+	    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 10px;
+    border: 1px solid #037766;
+    box-shadow: 1px 1px 5px 0px #0c6154;
+    border-radius: 9px;
+    color: #fff;
+    background: #0b9c86;
+}
+.search-section h2{
+	text-transform: capitalize;
+}
+.btn-cust{
+	text-transform: uppercase;
+	border-radius: 40px;
+	padding: 20px 40px;
+	    box-shadow: 0px 5px 3px 0 #444444b5;
+	    background: #1ebea5;
+	    font-weight: 700;
+	    border-color: #1ebea5;
+}
+.btn-cust:hover, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #1ebea5;
+    border-color: #1ebea5;
+}
+.btn-cust:hover{
+	box-shadow: 0px 3px 3px 0 #444444b5;
+}
+.btn-primary:focus {
+
+box-shadow: 0 0 0 0.2rem rgba(11, 156, 134, 0.18);
+}
+.foot-menu{
+	display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+.foot-menu li{
+	margin: 0 8px;
+	list-style-type: none;
+}
+.foot-menu li a{
+	color: #fff;
+	font-size: 12px; 
+}
+.footer{
+	background-color: #0c6154;
+	padding: 10px 0;
+}
+.footer p{
+	text-align: center;
+	color: #a9a9a9;
+	margin: 0;
+	font-size: 12px;
+}
+.search-section label{
+	    font-size: 20px;
+    font-weight: 700;
+}
+.processing-request-wrapper {
+    background: #fff;
+    padding: 40px 30px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.windows8{
+	width: 80px;
+	    margin: 0 auto;
+}
+.processing-request-wrapper p{
+	color: #444;
+}
+.processing-description{
+	font-size: 21px;
+
+}
+.processing-title{
+	font-size: 30px;
+	font-weight: 600;
+}
+.time-box{
+	    background: #fff;
+    padding: 10px 20px;
+    border-radius: 9px;
+    margin: 20px 0;
+    transition-duration: .5s;
+}
+.time-box span{
+color: #037766;
+font-weight: 700;
+    font-size: 25px;
+}
+.time-box p{
+color: #037766;
+}
+.time-box:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.time-box.selected{
+	background-color: #1ebea5; 
+	    box-shadow: 1px 1px 4px 0px #004238;
+}
+.time-box.selected span, .time-box.selected p{
+	color: #fff;
+}
+.console-messages{
+	text-align: left;
+
+}
+.console-message{
+	display: none;
+}
+.cssload-loader img{
+	width: 80px;
+}
+.cssload-loader{
+	margin-bottom: 20px;
+}
+.generator-console-wrapper{
+	min-height: 300px;
+}
+.width-50{
+	width: 50%;
+}
+.ip-section{
+	margin-top: 50px;
+}
+.chat-section{
+	margin-top: 50px;
+	text-align: left;
+}
+.yellow_text{
+	font-weight: 600;
+	font-size: 25px;
+	position: relative;
+	    bottom: 10px;
+}
+.ipsubheader{
+	font-weight: 400;
+}
+#X00ContainerChatControls {
+    padding: 20px 0 0 0;
+}
+.X00EntryUserName{
+	font-weight: 700;
+	margin-right: 5px;
+}
+#X00ContainerChat {
+    position: relative;
+    width: 100%;
+    font-weight: normal;
+}
+#X00ContainerChatUserName {
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(25, 25, 25, 0.88);
+    display: none;
+    left: 50%;
+    margin: -80px 0 0 -200px;
+    position: absolute;
+    width: 375px;
+    top: 50%;
+    z-index: 5;
+    border-radius: 2px;
+    padding: 20px;
+}
+#X00ButtonChatUserName {
+    background: #5173bd;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.X00Container{
+	position: relative;
+}
+.X00EntryContent{
+	font-size: 13px;
+}
+#X00ChatContent {
+    font-size: 13px;
+    height: 213px;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #066f5f;
+}
+.send-btn{
+	text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+@media (max-width: 767px) {
+	.featured-box {
+    padding: 0px 0;
+}
+.search-section{
+	width: 100%;
+}
+.width-50{
+	width: 100%;
+}
+.yellow_text{
+	font-size: 19px;
+}
+}
